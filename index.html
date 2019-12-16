@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name = "Description" content = "Projet HTML/CSS">
+        <title>E-Portfolio</title>
+        <!-- Bootstrap CSS -->
+    	
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    	<!-- Redéfinition du CSS -->
+        <link rel="stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <header id ="header">
+			<ul>
+			  <li><a class="active" href="#header">Accueil</a></li>
+			  <li><a href="#passions">Passions</a></li>
+			  <li><a href="#parcours">Parcours</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</ul>
+        </header>
+
+
+        <div id = "corps">
+        	<h1> Coucou !  Bienvenue sur le E-Portfolio de Stéphane Vilarinho </h1>
+        	
+
+        	<div id = "presentation">
+        		<h2> Présentation </h2>
+        		
+        		<img src ="./images/photo.jpg" alt = "Photo de profil de Stéphane Vilarinho" id = "maphoto">
+
+	        	<p>
+	        	</br>
+
+					Bonjour, je m'appelle <strong>Stéphane</strong>, j'ai 19 ans, je suis né le 22/02/2000 à Suresnes et je suis d'origine portugaise. Je suis actuellement en première année d'école de commerce, au pôle Léonard de Vinci situé dans le centre des affaires de la Défense. J'habite à Aulnay-sous-bois depuis 5 ans, avant je demeurais à la Courneuve.
+
+	        	</p>
+	        </div>
+
+	        <div id = "passions">
+	        	<h2> Mes passions </h2>
+	        	</br>
+	        	<div class ="container-fluid">
+
+		        	<div class = "row justify-content-center ">
+		        		<div class = "col">
+
+							<div class="card" >
+							 	<img src="./images/ronaldo.jpg" class="card-img-top" alt="Mon Sport Préféré">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Football</h5>
+							    	<p class="card-text">Il s'agit là de mon sport préféré, j'en ai effectuer pendant longtemps. J'adore jouer et regarder le football.</p>
+							  </div>
+							</div>
+						</div>
+
+						<div class = "col">
+
+							<div class="card" >
+							 	<img src="./images/musculation.jpg" class="card-img-top" alt="Sport">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Sport</h5>
+							    	<p class="card-text">J'aime me dépenser, repousser mes limites.</p>
+							  </div>
+							</div>
+						</div>
+
+						<div class = "col">
+
+							<div class="card">
+							 	<img src="./images/voyage.jpg" class="card-img-top" alt="Voyage">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Voyage</h5>
+							    	<p class="card-text">J'adore découvrir de nouveaux lieux et de nouvelles cultures, c'est très enrichissant.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id = "parcours">
+				<h2>Mon parcours </h2>
+				<p>
+
+					J'ai fait une partie de ma scolarité à Aubervilliers, au collège <strong>Notre-Dame-des-Vertus</strong>, j'y étais scolarisé entre la sixième et la quatrième. J'ai ensuite déménager à Aulnay-sous- bois et effectué ma dernière année de collège à l'Espérance, où j'ai obtenu mon brevet avec mention très bien.  J'ai ensuite effectué mes trois années de Lycée, au lycée l'Espérance; j'ai suivi la filière Scientifique, et j'ai obtenu mon Bac S en 2018. J'ai entamé une année en <strong>PACES</strong>, mais cela ne m'a pas plus, j'ai donc décidé de me réorienter vers le commerce, et je suis actuellement en première année a <strong>l'EMLV</strong>.
+
+
+				</p>
+			</div>
+
+			<div id = "contact">
+				<h2> Follow me </h2>
+
+				<a href = "https://www.instagram.com/vila.stph/?hl=fr"> <img src ="./images/instagram.jpg" alt = "Lien profil Instagram" class = "reseaux"></a>
+				<a href ="https://www.linkedin.com/in/stéphane-vilarinho-904516197"><img src ="./images/linkedin.png" alt = "Lien profil Linkedin" class = "reseaux"></a>
+				<a href ="https://twitter.com/TheSnakeJr1"><img src ="./images/twitter.png" alt = "Lien profil Twitter" class = "reseaux"></a>
+
+			</div>
+        </div>
+        <div id = "autre">
+	        <a href="#header"  type="button" class="btn btn-outline-primary btn-lg">Retour à l'accueil </a>
+			<a href="https://learn.lewagon.com/"  type="button" class="btn btn-outline-primary btn-lg">Consulter le Wagon </a>
+		</div>
+
+
+    </body>
+</html>
